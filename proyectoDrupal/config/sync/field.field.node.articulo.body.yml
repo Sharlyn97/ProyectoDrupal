@@ -1,0 +1,22 @@
+uuid: db090691-d864-4c98-9b43-33790112717f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.articulo
+  module:
+    - text
+id: node.articulo.body
+field_name: body
+entity_type: node
+bundle: articulo
+label: Cuerpo
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

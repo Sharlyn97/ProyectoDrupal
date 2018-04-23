@@ -1,0 +1,21 @@
+uuid: f79ccec6-c622-415a-833d-cca662296af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estreno
+    - node.type.peliculas
+  module:
+    - datetime
+id: node.peliculas.field_estreno
+field_name: field_estreno
+entity_type: node
+bundle: peliculas
+label: Estreno
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

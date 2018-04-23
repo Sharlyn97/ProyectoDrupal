@@ -1,0 +1,29 @@
+uuid: fa1f7cf9-2c01-40f5-a3c7-f6537287b654
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_popularidad
+    - node.type.peliculas
+    - taxonomy.vocabulary.popularidad
+id: node.peliculas.field_popularidad
+field_name: field_popularidad
+entity_type: node
+bundle: peliculas
+label: Popularidad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      popularidad: popularidad
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

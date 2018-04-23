@@ -1,0 +1,22 @@
+uuid: 28e48b99-e279-4e52-9570-be3bd8ee1537
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.reparto
+  module:
+    - text
+id: node.reparto.body
+field_name: body
+entity_type: node
+bundle: reparto
+label: Descripción
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

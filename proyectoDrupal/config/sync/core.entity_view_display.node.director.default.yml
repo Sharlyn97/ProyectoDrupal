@@ -1,0 +1,37 @@
+uuid: 5416465f-6fcd-4510-b5f9-f775810df253
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.director.body
+    - field.field.node.director.field_peliculas
+    - node.type.director
+  module:
+    - text
+    - user
+id: node.director.default
+targetEntityType: node
+bundle: director
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_peliculas:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

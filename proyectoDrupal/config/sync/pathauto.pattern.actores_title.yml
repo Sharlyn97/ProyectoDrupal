@@ -1,0 +1,22 @@
+uuid: 5f17335c-90d4-4348-8b31-91adf93e3691
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: actores_title
+label: Actores_Title
+type: 'canonical_entities:node'
+pattern: '/actor/[node:title]'
+selection_criteria:
+  9e922b04-375c-4640-ace7-6195db0cda82:
+    id: node_type
+    bundles:
+      reparto: reparto
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9e922b04-375c-4640-ace7-6195db0cda82
+selection_logic: and
+weight: -5
+relationships: {  }

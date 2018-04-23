@@ -1,0 +1,28 @@
+uuid: 42920a5b-f8ea-44fe-a68a-b25d7b3a3ec7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.reparto.body
+    - node.type.reparto
+  module:
+    - text
+    - user
+id: node.reparto.teaser
+targetEntityType: node
+bundle: reparto
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

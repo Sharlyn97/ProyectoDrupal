@@ -1,0 +1,14 @@
+uuid: 9192c6f5-ee07-4d82-a5b9-ec9283c3d094
+langcode: en
+status: true
+dependencies: {  }
+name: fotoshome
+label: fotosHome
+effects:
+  79f482a5-2eff-4297-b1a7-cfe5cb45e7bb:
+    uuid: 79f482a5-2eff-4297-b1a7-cfe5cb45e7bb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 450

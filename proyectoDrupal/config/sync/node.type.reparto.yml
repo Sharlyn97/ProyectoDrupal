@@ -1,0 +1,18 @@
+uuid: c30594f8-fab2-46b6-9237-71ccd02fbefa
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Actor
+type: reparto
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: 38e5d404-ec0f-46d9-9426-0f97671ff250
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: director_title
+label: Director_title
+type: 'canonical_entities:node'
+pattern: '/director/[node:title]'
+selection_criteria:
+  b52bd6dc-9ad5-446a-a810-2c1be10a5ae4:
+    id: node_type
+    bundles:
+      director: director
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b52bd6dc-9ad5-446a-a810-2c1be10a5ae4
+selection_logic: and
+weight: -5
+relationships: {  }

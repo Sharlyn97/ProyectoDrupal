@@ -1,0 +1,9 @@
+uuid: 74168d77-01e5-40c6-9ebc-49e13b2c50fc
+langcode: en
+status: true
+dependencies: {  }
+name: Clasificación
+vid: clasificacion
+description: 'Clasificación de las películas'
+hierarchy: 0
+weight: 0

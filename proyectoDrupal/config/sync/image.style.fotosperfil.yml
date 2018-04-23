@@ -1,0 +1,14 @@
+uuid: 62aec01d-866f-452f-a795-218852c3634a
+langcode: en
+status: true
+dependencies: {  }
+name: fotosperfil
+label: fotosPerfil
+effects:
+  e580a0a7-a467-47c5-a771-26a5de2da9b4:
+    uuid: e580a0a7-a467-47c5-a771-26a5de2da9b4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 600

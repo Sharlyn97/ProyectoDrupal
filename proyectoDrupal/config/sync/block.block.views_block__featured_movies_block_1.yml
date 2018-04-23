@@ -1,0 +1,24 @@
+uuid: 0aa2690d-7227-421e-b5fb-183c0e59f0ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_movies
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__featured_movies_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:featured_movies-block_1'
+settings:
+  id: 'views_block:featured_movies-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

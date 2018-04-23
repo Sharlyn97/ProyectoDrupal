@@ -1,0 +1,39 @@
+uuid: d5a1f0e0-3ec5-440c-977d-c0276e159fc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.director.body
+    - field.field.node.director.field_peliculas
+    - node.type.director
+  module:
+    - text
+    - user
+id: node.director.teaser
+targetEntityType: node
+bundle: director
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_peliculas:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

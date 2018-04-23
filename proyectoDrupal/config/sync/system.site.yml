@@ -1,0 +1,14 @@
+uuid: 5e9a5a95-627c-44f4-99a4-bd29cdc05657
+name: DrupalSite
+mail: sharlync.f@gmail.com
+slogan: 'Las mejores películas siempre. '
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

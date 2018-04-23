@@ -1,0 +1,30 @@
+uuid: dd65f4fd-3011-4752-9184-d70b044462a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.mas_recientes
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__mas_recientes_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:mas_recientes-block_1'
+settings:
+  id: 'views_block:mas_recientes-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: 80285509-d25e-4359-b3fe-e194dd843e6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: featured_movies
+label: 'Featured Movies'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      peliculas: peliculas
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 3
+  act_as_queue: true
+  reverse_in_admin: false

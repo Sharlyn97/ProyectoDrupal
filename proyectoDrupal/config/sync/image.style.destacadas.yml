@@ -1,0 +1,14 @@
+uuid: a5c2118f-4d02-4137-b6c6-f3767b875c12
+langcode: en
+status: true
+dependencies: {  }
+name: destacadas
+label: Destacadas
+effects:
+  232885e6-6df6-4ae3-a943-aef87db71524:
+    uuid: 232885e6-6df6-4ae3-a943-aef87db71524
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 200

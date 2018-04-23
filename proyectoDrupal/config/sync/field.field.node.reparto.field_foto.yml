@@ -1,0 +1,38 @@
+uuid: 6daef897-5739-4044-ab5a-f4ea542ab040
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_foto
+    - node.type.reparto
+  module:
+    - image
+id: node.reparto.field_foto
+field_name: field_foto
+entity_type: node
+bundle: reparto
+label: Foto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 150KB
+  max_resolution: 1080x920
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

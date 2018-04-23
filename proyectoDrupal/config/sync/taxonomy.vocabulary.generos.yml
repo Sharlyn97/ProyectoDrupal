@@ -1,0 +1,9 @@
+uuid: 465f6580-099a-4b77-a93d-95673fd804c9
+langcode: en
+status: true
+dependencies: {  }
+name: Géneros
+vid: generos
+description: 'Géneros cinematográficos'
+hierarchy: 0
+weight: 0

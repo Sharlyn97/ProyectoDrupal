@@ -1,0 +1,29 @@
+uuid: 36736514-53d8-4b52-8358-627dc6c8b1c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_genero
+    - node.type.peliculas
+    - taxonomy.vocabulary.generos
+id: node.peliculas.field_genero
+field_name: field_genero
+entity_type: node
+bundle: peliculas
+label: Género
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      generos: generos
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

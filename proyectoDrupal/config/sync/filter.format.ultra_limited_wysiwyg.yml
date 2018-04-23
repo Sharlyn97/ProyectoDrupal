@@ -1,0 +1,15 @@
+uuid: 4c431033-73ba-4e21-8d59-09e0f54cf92a
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ultra Limited Wysiwyg'
+format: ultra_limited_wysiwyg
+weight: 0
+filters:
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: true
+    weight: 0
+    settings:
+      filter_url_length: 72
