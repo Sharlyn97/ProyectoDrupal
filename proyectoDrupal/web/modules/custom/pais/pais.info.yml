@@ -1,0 +1,5 @@
+name: 'pais'
+type: module
+description: 'Modulo para agregar un campo de un pais.'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,5 @@
+name: 'EnlaceEntityReference'
+type: module
+description: 'Enlace para la vista de los actores y directores'
+core: 8.x
+package: 'Custom'
